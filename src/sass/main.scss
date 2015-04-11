@@ -1,8 +1,10 @@
 @import 'vendor/normalize-scss/normalize';
+@import 'vendor/foundation/scss/foundation';
     
 @import 'utils/variables';
 @import 'utils/mixins';
 
+@import 'base/shared';
 @import 'base/typography';
 
 @import 'components/nav';

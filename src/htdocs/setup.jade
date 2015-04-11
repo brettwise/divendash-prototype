@@ -1,0 +1,36 @@
+extends layouts/h5bp.jade
+
+block title
+  title Setup
+
+block content
+  .row.section-padding
+    .text-center
+      h3 Give us all your infos! 
+      p (we definitely won't be selling them to spammers)
+      h4 Starting Date & Time
+      p We'll text the first instructions/destination at this time.
+    .medium-6.columns.medium-centered
+       input(type='datetime' placeholder='starting date & time' required)
+    .large-10.large-offset-1
+      .medium-6.columns
+        h4.text-center Team 1
+        label Player 1
+          input(type='tel' placeholder='phone number' required)
+        label Player 2
+          input(type='tel' placeholder='phone number' required)
+      .medium-6.columns
+        h4.text-center Team 2
+        label Player 1
+          input(type='tel' placeholder='phone number' required)
+        label Player 2
+          input(type='tel' placeholder='phone number' required)
+        label Player 3
+          input(type='tel' placeholder='phone number')
+        label Player 4
+          input(type='tel' placeholder='phone number')
+    .medium-6.columns
+  .row
+    .small-3.columns.small-centered
+      a.small-12.columns.button(href='#') play
+

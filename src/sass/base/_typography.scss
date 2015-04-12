@@ -1,0 +1,55 @@
+.logo {
+  padding-bottom: 3rem;
+}
+
+
+.title {
+  color: rgb(157, 158, 157);
+  font-family: $logo-font;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: -30px;
+
+  .red {
+    color: $red;
+  }
+
+  .white {
+    color: $white;
+  }
+
+  .blue {
+    color: $blue;
+  }
+}
+
+.subtitle {
+  color: $white;
+  letter-spacing: 3px;
+  font-family: $subtitle-font;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.top-subtitle {
+  margin-bottom: -20px; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $white;
+}
+
+.button,
+li,
+p {
+  color: $white;
+  font-size: $body-font-size;
+  font-family: $subtitle-font;
+  font-style: normal;
+  font-weight: 300;
+}

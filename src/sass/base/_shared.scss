@@ -1,7 +1,38 @@
 .section-padding {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 .button-padding {
   padding: 3rem 0;
+}
+
+.index {
+  background: $black;
+  color: $white;
+}
+
+.button {
+  text-transform: uppercase;
+}
+
+.black {
+  background-color: $black;
+}
+
+hr {
+  border: solid lighten($black, 10%);
+  border-width: 1px;
+}
+
+.red-background {
+  background: $red;
+  padding: 5rem 0;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.setup {
+  background: $red;
 }

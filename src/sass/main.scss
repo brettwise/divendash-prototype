@@ -1,7 +1,8 @@
 @import 'vendor/normalize-scss/normalize';
+@import 'utils/variables';
+@import 'base/settings';
 @import 'vendor/foundation/scss/foundation';
     
-@import 'utils/variables';
 @import 'utils/mixins';
 
 @import 'base/shared';

@@ -14,6 +14,7 @@ if (error) {
   signupError.innerHTML = 'Sorry. Could not signup.';
   } else {
   incrementCounter();
+  analytics.track('Signed Up');
   $('#signup-form').fadeOut(400, function() {
       $(this).html("<h3 classs='subtitle'>+1, got it! We'll be in touch.</h3>").fadeIn(500)
     })  

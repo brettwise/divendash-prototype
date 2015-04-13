@@ -8,25 +8,38 @@ block content
     .section-padding
       .row.text-center
         .logo
-          h3.subtitle.top-subtitle A text message based Amazing Race influenced 
+          h3.subtitle.top-subtitle A text message based Amazing Race influenced off-the-beaten-path pub crawl adventure.
+          br
+          br
           h1.title.columns
             span.red Dive 
             span.white 'n 
             span.blue Dash
-          h3.subtitle.bottom-subtitle off-the-beaten-path pub crawl adventure. 
+          br
+          br
           h3.subtitle.call-padding It's kind of insane.
     .red-background
       .row
         .medium-10.columns.medium-offset-1
-          p.big-question.text-center So what is this thing?
-          p We could tell you exactly what's about to happen during the course of this game. But that wouldn't be very much fun would it?
-          p So we'll tell you what you need to play instead. Just trust us. You'll have a good time.
+          p.big-question.text-center So what is Dive 'n Dash?
+          p.text-center We could tell you exactly what's about to happen during the course of this game. 
+          p.text-center But that wouldn't be much fun would it?
+          p.text-center So we'll tell you what you need to play instead. Just trust us. You'll have a good time and you'll thank us that we didn't spoil the surprises.
           ol
-            li First we need your trust. We're going to send you to places you haven't been to before in Chattanooga. 
             li You'll need at least 4 players. You'll be split into two teams. 1 DD (someone has to drive if you're driving) and 1 team lead. 
-            li Dive 'n Dash Dave's number is below. Save it to your phone and text him when you have your peeps and want to start a  game.
+            li This is probably going to take a few hours. So you'll need a bit of time.
+            li Dive 'n Dash Dave's number is below. Save it to your phone and text him when you have your peeps and want to start a game.
     .section
       .row.text-center
-        h3.subtitle When you're ready to start a game text this number 
-        h3.subtitle Phone Number Coming Soon.
-
+        h3.subtitle We'll be launching the game before too long.
+        br
+        h3.subtitle If you're interest is piqued drop us your email and we'll shoot you a message when we launch.
+      .signup
+          .row
+              .medium-10.medium-offset-1.large-8.large-offset-2.columns
+                  form#signup-form.signup-form.row.collapse.text-center(role='form', onsubmit='return signup(this)')
+                      .small-8.columns    
+                          input.form-control.columns#email-input(name='email', type='email', placeholder='your email', required)
+                      .small-4.columns     
+                          button#signup-button.postfix.small-4.columns.alert(type='submit') Sign Me Up 
+                  h3#update-me.text-center.subtitle

@@ -47,7 +47,7 @@ h6 {
 .button,
 li,
 p {
-  color: white;
+  color: lighten($white, 5%);
   font-size: $body-font-size;
   font-family: $body-font;
 }

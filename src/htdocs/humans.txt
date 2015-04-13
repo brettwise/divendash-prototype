@@ -4,12 +4,14 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Brett Wise -- Frontend UX/UI -- @brettwise
+    Naveen Lekkalapudi -- Backend/UX -- @rekojtoor
 
 # THANKS
 
     <name>
-
+    Amber Sanderson -- For a much better product name than I came up with.
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Modernizr, Normalize.css, Django
